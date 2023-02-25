@@ -26,7 +26,7 @@ import lombok.Setter;
 		@GeneratedValue(strategy=GenerationType.AUTO)
 		private long id;
 	
-		private int endyear;
+		private Long endyear;
 		private String topic;  //visual
 		private String sector;
 		private String pestle;
